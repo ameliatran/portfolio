@@ -15,19 +15,30 @@ nav {
 	height: 100px;
 }
 
-.content {
-	color: yellow;
+.box1 {
+	position: absolute; 
 	font-family: Arial;
-	font-size: 40px;
-	position: absolute;
-	display: block;
-    width: 400px;
-    height: 50px;
-    top: 50%;
-    left: 50%;
-    margin-left: -100px; /* margin is -0.5 * dimension */
-    margin-top: -150px; 
+	color: lightblue;
+	bottom: 300px;
+	left: 250px;
+	text-align: center;
+	background-color: white; 
+	padding:10px; 
+	height: 100px; 
+	width: 100px;
+}
 
+.box2 {
+	position: absolute; 
+	font-family: Arial;
+	color: lightblue;
+	bottom: 300px;
+	right: 250px;
+	text-align: center;
+	background-color: white; 
+	padding:10px; 
+	height: 100px; 
+	width: 100px;
 }
 
 ul {
@@ -83,7 +94,6 @@ ul li a:hover {
 .linkedin img {
 	width: 75px;
 }
-
 
 /*
 .main-text {
